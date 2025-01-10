@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>Image Projects</h1>
+ 
 
     <section class="project penguin">
         <h2>Project 1: Penguin Image</h2>
@@ -35,12 +36,35 @@
     <section class="project football_field">
         <h2>Project 5: Football Field</h2>
         <img src="football_field.jpg" alt= "Football Field">
+         <style>
+  div {
+    background-image: tic_tac_toe.png, football_field.jpg; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    background-size: 100px auto, auto 200px;
+    background-position: 0px 0px, 50px 5px;
+    background-origin: content-box;
+
+    border-image-source: tac_tac_toe.png;
+    border: 27px solid #000;
+    border-image: football_field.jpg 27 round;
+  }
+</style>
+ 
     </section>
 
   
     <section class="project butterfly">
         <h2>Project 6: Buttterfly</h2>
         <img src="butterfly.jpg" alt="Butterfly">
+         <style>
+    div {
+        border-radius: 60px 60px 90px 0px / 20px 0px 50px 60px;
+        background-color: cornflowerblue;
+        height: 150px;
+    }
+</style>
     </section>
 
   
